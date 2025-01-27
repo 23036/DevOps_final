@@ -7,7 +7,7 @@ def home():
 
 @app.route('/about')
 def about():
-    return "This is our page "
+    return "Welcom user,This is our page "
 @app.route('/main')
 def object():
     return "Notre objectif est de collaborer"
