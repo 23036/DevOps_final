@@ -2,6 +2,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
+def home():
+    return "Hello, docker"
+
 @app.route('/about')
 def about():
     return "This is our page "
